@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $('document').ready(function(){
+      $(parent.document).find('frameSet').attr("cols","*,0")
+    });
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content= "Affordable and professional web design">
+    <meta name"keywords" content= "wen design, affordable wed design, professional">
+    <meta name="author" content="Brad Traversy">
+    <title>WEB RWD DESIGN</title>
+    <link rel = "stylesheet" href = './css/style.css'>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+
+        <div id="branding">
+          <h1><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>WEB RWD DESIGN</h1>
+        </div>
+        <nav>
+          <div class="topnav" id="myTopnav">
+          <ul>
+
+            <li><a href="index.html">Hom</a></li>
+            <li><a href="about.html">Abo</a></li>
+            <li><a href="services.html">Pro</a></li>
+          </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section id = "showcase">
+      <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+    </section>
+
+
+    <section id ="newsletter">
+      <div class="container">
+        <h1>WEB RWD DESIGN</h1>
+        <!--
+        <form>
+          <input type="email" placeholder= "Enter Email...">
+          <button type="submit" class="button_1">Suscribe</button>
+        </form>
+        -->
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+            <a href="services.html"><img src="./img/logo_left.png"></a>
+          <h3>Lorem ipsum dolor sit amet</h3>
+          <p>Rain in the sea</p>
+        </div>
+        <div class="box">
+          <a href="services.html"><img src="./img/logo_mid.png"></a>
+          <h3>Make it good</a></h3>
+          <p>Hike in the moutain</p>
+        </div>
+        <div class="box">
+            <a href="services.html"><img src="./img/logo_right.png"></a>
+          <h3>Explore the mountain</h3>
+          <p>Think in the deep</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </footer>
+  </body>
+
+  <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+</html>
